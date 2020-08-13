@@ -1,0 +1,68 @@
+header {
+    background-color: blue;
+    font-size: xx-large;
+    color: white;
+    padding: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 25%;
+    float: left;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: lightblue;
+    color: white;
+}
+
+ul li:hover {
+    background-color: darkblue;
+
+}
+
+aside {
+    width: 70%;
+    float: right;
+
+}
+
+.clear {
+    clear: both;
+    content: "";
+
+}
+
+.left {
+    float: left;
+}
+
+footer {
+    position: fixed;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    padding: 40px;
+    font-weight: bolder;
+    width: 97%;
+    bottom: 5px;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+}
+
+.main {
+    margin-bottom: 15px;
+}
